@@ -67,3 +67,18 @@
     width: 80%;
 }
 
+
+@media screen and (max-width: 500px) {
+    .cardsparant{
+        display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #692B78;
+    }
+    .card {
+        width: 80%;
+    }
+}
